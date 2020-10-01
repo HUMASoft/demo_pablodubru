@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.5)
+
+# set the project name
+project(prueba1)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(Qt5Core)
+
+# add the executable
+add_executable(prueba1  main.cpp)
+
+target_link_libraries(prueba1 Qt5::Core)
