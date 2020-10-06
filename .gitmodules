@@ -1,0 +1,3 @@
+[submodule "prueba1/lib/fcontrol"]
+	path = prueba1/lib/fcontrol
+	url = https://github.com/munozyanez/fcontrol.git
