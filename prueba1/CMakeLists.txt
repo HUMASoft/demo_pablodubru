@@ -9,11 +9,17 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_library(MathFunctions mysqrt.cpp)
 
+
+# add the control libraries
 add_subdirectory(${PROJECT_SOURCE_DIR}/lib/fcontrol/)
+INCLUDE_DIRECTORIES(${SUBDIR_INCLUDE_DIRECTORIES})
+
+
+# add the CiA402Device
+add_subdirectory(${PROJECT_SOURCE_DIR}/lib/CiA402Device/)
 INCLUDE_DIRECTORIES(${SUBDIR_INCLUDE_DIRECTORIES})
 
 # add the executable
 add_executable(prueba1 main.cpp)
 
 target_link_libraries(prueba1 MathFunctions ${SUBDIR_LINK_NAMES})
-
