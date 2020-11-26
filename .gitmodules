@@ -1,3 +1,6 @@
 [submodule "prueba1/lib/fcontrol"]
 	path = prueba1/lib/fcontrol
 	url = https://github.com/munozyanez/fcontrol.git
+[submodule "prueba1/lib/CiA402Device"]
+	path = prueba1/lib/CiA402Device
+	url = https://github.com/HUMASoft/CiA402Device.git
