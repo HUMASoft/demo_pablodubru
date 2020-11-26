@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CiA402Device.dir/PortBase.cpp.o"
   "CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o"
   "CMakeFiles/CiA402Device.dir/TestPort.cpp.o"
-  "libCiA402Device.pdb"
   "libCiA402Device.a"
+  "libCiA402Device.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

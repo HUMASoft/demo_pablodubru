@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/prueba2.dir/prueba2.cpp.o -o prueba2  -Wl,-rpath,/home/humasoft/demo_pablodubru/build-prueba1-Desktop-Default/lib/fcontrol lib/fcontrol/libfcontrol.so lib/CiA402Device/libCiA402Device.a /usr/lib/x86_64-linux-gnu/libfftw3.so 

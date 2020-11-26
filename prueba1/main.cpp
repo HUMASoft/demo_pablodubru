@@ -39,10 +39,8 @@ int main(int argc, char* argv[])
 //        m3.Setup_Velocity_Mode(5);
 
 
-        m1.SetPosition(1);
+        m1.SetPosition(-1);
         sleep(2);
         cout << m1.GetPosition() << endl;
-
-
 
 }

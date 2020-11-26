@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MathFunctions.dir/mysqrt.cpp.o"
-  "libMathFunctions.pdb"
   "libMathFunctions.a"
+  "libMathFunctions.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
