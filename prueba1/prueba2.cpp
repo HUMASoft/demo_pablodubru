@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
         for(int i=0;i<1000;i++){
 
            // cout << "Prueba: " << i << endl;
-            m1.GetTorque();
+            m1.GetPosition();
 
         }
 
