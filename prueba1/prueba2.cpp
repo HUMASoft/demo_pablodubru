@@ -32,16 +32,13 @@ int main(int argc, char* argv[])
         for(int i=0;i<1000;i++){
 
            // cout << "Prueba: " << i << endl;
-<<<<<<< HEAD
-            m1.GetPosition();
-=======
+
+//            m1.GetPosition();
+
 //            m1.SetTorque();
             //prueba cada una de estas funciones.
-//            pid.OutputUpdate(0.5);
+//          pid.OutputUpdate(0.5);
             fpd.OutputUpdate(0.5);
-
-
->>>>>>> dd4119cea00299d36962524716483cfed0e5979c
 
         }
 
