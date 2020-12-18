@@ -12,14 +12,14 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 
-    //m1 setup
-//        SocketCanPort pm31("can1");
-//        CiA402SetupData sd31(2048,24,0.001, 0.144, 20);
-//        CiA402Device m1 (1, &pm31, &sd31);
-//        m1.Reset();
-//        m1.SwitchOn();
-//      //  m1.SetupPositionMode(5);
-//        //m1.Setup_Velocity_Mode(5);
+   // m1 setup
+        SocketCanPort pm31("can1");
+        CiA402SetupData sd31(2048,24,0.001, 0.144, 20);
+        CiA402Device m1 (1, &pm31, &sd31);
+        m1.Reset();
+        m1.SwitchOn();
+        m1.SetupPositionMode(5);
+        //m1.Setup_Velocity_Mode(5);
 //        m1.Setup_Torque_Mode();
 
         //controllers
@@ -29,21 +29,25 @@ int main(int argc, char* argv[])
 
         chrono::system_clock::time_point start = std::chrono::system_clock::now();
 
-        for(int i=0;i<1000;i++){
+
+//        for(int i=0;i<1000;i++){
 
            // cout << "Prueba: " << i << endl;
-<<<<<<< HEAD
+
             m1.GetPosition();
-=======
-//            m1.SetTorque();
+
+//            m1.SetTorque(0);
             //prueba cada una de estas funciones.
-//            pid.OutputUpdate(0.5);
-            fpd.OutputUpdate(0.5);
+
+            //m1.GetVelocity();
+            //pid.OutputUpdate(0.5);
+            //fpd.OutputUpdate(0.5);
+            //m1.SetVelocity(-0.5);
 
 
->>>>>>> dd4119cea00299d36962524716483cfed0e5979c
+//        }
 
-        }
+//        m1.SetVelocity(0);
 
         chrono::system_clock::time_point finish = std::chrono::system_clock::now();
 

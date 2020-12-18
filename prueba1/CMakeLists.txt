@@ -22,6 +22,8 @@ INCLUDE_DIRECTORIES(${SUBDIR_INCLUDE_DIRECTORIES})
 # add the executable
 add_executable(prueba1 main.cpp)
 add_executable(prueba2 prueba2.cpp)
+add_executable(prueba3 prueba3.cpp)
 
 target_link_libraries(prueba1 ${SUBDIR_LINK_NAMES})
 target_link_libraries(prueba2 ${SUBDIR_LINK_NAMES})
+target_link_libraries(prueba3 ${SUBDIR_LINK_NAMES})
