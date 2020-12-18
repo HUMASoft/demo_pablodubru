@@ -34,22 +34,7 @@ int main(int argc, char* argv[])
 
            // cout << "Prueba: " << i << endl;
 
-<<<<<<< HEAD
-            m1.GetPosition();
 
-//            m1.SetTorque(0);
-            //prueba cada una de estas funciones.
-
-            //m1.GetVelocity();
-            //pid.OutputUpdate(0.5);
-            //fpd.OutputUpdate(0.5);
-            //m1.SetVelocity(-0.5);
-
-
-//        }
-
-//        m1.SetVelocity(0);
-=======
 //            m1.GetPosition();
 
 //            m1.SetTorque();
@@ -58,7 +43,7 @@ int main(int argc, char* argv[])
             fpd.OutputUpdate(0.5);
 
         }
->>>>>>> 6e7d8212752a59e7aa6d401666190aaf1a4fbcc0
+
 
         chrono::system_clock::time_point finish = std::chrono::system_clock::now();
 
